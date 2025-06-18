@@ -33,7 +33,7 @@ export default function LoginPage() {
   const isUserIdValid = userId === '' || /^[a-zA-Z0-9_-]{3,20}$/.test(userId);
 
   // --- ВСТАВЛЯЕМ API URL ---
-  const LOGIN_API_URL = 'https://d70kaz-185-42-163-77.ru.tuna.am/v1/auth/login';
+  const LOGIN_API_URL = 'https://4u07bp-185-42-163-77.ru.tuna.am/v1/auth/login';
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
