@@ -17,7 +17,7 @@ import {
 } from './steps';
 
 // Константа с адресом бэкенда
-const API_URL = 'https://d70kaz-185-42-163-77.ru.tuna.am/v1/auth/register';
+const API_URL = 'https://4u07bp-185-42-163-77.ru.tuna.am/v1/auth/register';
 
 export default function MultiStepSignup() {
   const [step, setStep] = useState(1);
